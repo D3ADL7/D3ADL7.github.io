@@ -15,6 +15,11 @@ figure, article, nav
     margin: 0px 0px 15px 0px;
 }
 
+.xamlPic img, .xamlPic 
+{
+    width: 100%;
+}
+
 nav ul li a
 {
     display: block;
@@ -86,6 +91,19 @@ main
 {
     display: flex;
     flex-direction: column;
+}
+
+.LightGreen
+{
+    color: rgb(63, 255, 98);
+}
+.SkyBlue
+{
+    color: rgb(58, 216, 244);
+}
+.Orange
+{
+    color: rgb(249, 145, 0);
 }
 
 ul a
