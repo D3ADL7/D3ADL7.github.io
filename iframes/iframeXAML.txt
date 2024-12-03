@@ -5,7 +5,7 @@
              Title="ExamenboomPage"
              Loaded="ContentPage_Loaded">
     <ScrollView>
-        <VerticalStackLayout x:Name="stl_theBigDaddy">
+        <VerticalStackLayout x:Name="stl_Main">
             <!--ENABLED WHEN ADMIN-->
             <Label IsVisible="{x:Reference picker_AdminOnly}" Text="Beheer een students examenboom" FontSize="20" HorizontalTextAlignment="Center"/>
             <Picker IsVisible="False" 

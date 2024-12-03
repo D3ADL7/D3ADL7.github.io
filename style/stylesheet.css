@@ -15,6 +15,16 @@ figure, article, nav
     margin: 0px 0px 15px 0px;
 }
 
+#portPic
+{
+    display: block;
+}
+
+#portPic img
+{
+    width: 20%;
+}
+
 .xamlPic img, .xamlPic 
 {
     width: 100%;
@@ -106,13 +116,11 @@ main
     color: rgb(249, 145, 0);
 }
 
-ul a
-{
-
+.foldable {
+    display: none; /* Initially hidden */
 }
 
-aside
-{
-
+.foldable.open {
+    display: block; /* Shown when toggled */
 }
 /* MEDIA QUERTY TRIGGERPOINT???BREAKPOINT @ 600px RESOLUTION. */
